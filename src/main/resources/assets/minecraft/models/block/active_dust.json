@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/dust",
+    "textures": {
+        "dust": "minecraft:block/active_dust"
+	}
+}

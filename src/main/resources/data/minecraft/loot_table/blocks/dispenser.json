@@ -1,0 +1,135 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dispenser"
+          }
+        ],
+        "rolls": 1
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone"
+          }
+        ],
+        "functions": [],
+        "conditions": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:piston",
+            "properties": {
+              "dust_north": "true"
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone"
+          }
+        ],
+        "functions": [],
+        "conditions": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:piston",
+            "properties": {
+              "dust_south": "true"
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone"
+          }
+        ],
+        "functions": [],
+        "conditions": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:piston",
+            "properties": {
+              "dust_east": "true"
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone"
+          }
+        ],
+        "functions": [],
+        "conditions": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:piston",
+            "properties": {
+              "dust_west": "true"
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone"
+          }
+        ],
+        "functions": [],
+        "conditions": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:piston",
+            "properties": {
+              "dust_up": "true"
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone"
+          }
+        ],
+        "functions": [],
+        "conditions": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:piston",
+            "properties": {
+              "dust_down": "true"
+            }
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:blocks/piston"
+  }

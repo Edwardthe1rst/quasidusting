@@ -1,0 +1,23 @@
+{
+	"multipart": [
+		{ "when": {"facing": "down" }, "apply": { "model": "minecraft:block/dropper_vertical", "x": 180 } },
+		{ "when": {"facing": "east" }, "apply": { "model": "minecraft:block/dropper", "y": 90 } },
+		{ "when": {"facing": "north" }, "apply": { "model": "minecraft:block/dropper" } },
+		{ "when": {"facing": "south" }, "apply": { "model": "minecraft:block/dropper", "y": 180 } },
+		{ "when": {"facing": "up" }, "apply": { "model": "minecraft:block/dropper_vertical", "x": 0 } },
+		{ "when": {"facing": "west" }, "apply": { "model": "minecraft:block/dropper", "y": 270 } },
+	
+		{ "when": { "triggered": false, "dust_north": true }, "apply": { "model": "minecraft:block/inactive_dust", "y": 0 } },
+		{ "when": { "triggered": false, "dust_south": true }, "apply": { "model": "minecraft:block/inactive_dust", "y": 180 } },
+		{ "when": { "triggered": false, "dust_east": true }, "apply": { "model": "minecraft:block/inactive_dust", "y": 90 } },
+		{ "when": { "triggered": false, "dust_west": true }, "apply": { "model": "minecraft:block/inactive_dust", "y": 270 } },
+		{ "when": { "triggered": false, "dust_up": true }, "apply": { "model": "minecraft:block/inactive_dust", "x": 270 } },
+		{ "when": { "triggered": false, "dust_down": true }, "apply": { "model": "minecraft:block/inactive_dust", "x": 90 } },
+		{ "when": { "triggered": true, "dust_north": true }, "apply": { "model": "minecraft:block/active_dust", "y": 0 } },
+		{ "when": { "triggered": true, "dust_south": true }, "apply": { "model": "minecraft:block/active_dust", "y": 180 } },
+		{ "when": { "triggered": true, "dust_east": true }, "apply": { "model": "minecraft:block/active_dust", "y": 90 } },
+		{ "when": { "triggered": true, "dust_west": true }, "apply": { "model": "minecraft:block/active_dust", "y": 270 } },
+		{ "when": { "triggered": true, "dust_up": true }, "apply": { "model": "minecraft:block/active_dust", "x": 270 } },
+		{ "when": { "triggered": true, "dust_down": true }, "apply": { "model": "minecraft:block/active_dust", "x": 90 } }
+	]
+}

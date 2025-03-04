@@ -1,0 +1,29 @@
+{
+	"multipart": [
+		{ "when": { "extended": false, "facing": "down" }, "apply": { "model": "minecraft:block/sticky_piston", "x": 90 } },
+		{ "when": { "extended": false, "facing": "east" }, "apply": { "model": "minecraft:block/sticky_piston", "y": 90 } },
+		{ "when": { "extended": false, "facing": "north" }, "apply": { "model": "minecraft:block/sticky_piston" } },
+		{ "when": { "extended": false, "facing": "south" }, "apply": { "model": "minecraft:block/sticky_piston", "y": 180 } },
+		{ "when": { "extended": false, "facing": "up" }, "apply": { "model": "minecraft:block/sticky_piston", "x": 270 } },
+		{ "when": { "extended": false, "facing": "west" }, "apply": { "model": "minecraft:block/sticky_piston", "y": 270 } },
+		{ "when": { "extended": true, "facing": "down" }, "apply": { "model": "minecraft:block/piston_base", "x": 90 } },
+		{ "when": { "extended": true, "facing": "east" }, "apply": { "model": "minecraft:block/piston_base", "y": 90 } },
+		{ "when": { "extended": true, "facing": "north" }, "apply": { "model": "minecraft:block/piston_base" } },
+		{ "when": { "extended": true, "facing": "south" }, "apply": { "model": "minecraft:block/piston_base", "y": 180 } },
+		{ "when": { "extended": true, "facing": "up" }, "apply": { "model": "minecraft:block/piston_base", "x": 270 } },
+		{ "when": { "extended": true, "facing": "west" }, "apply": { "model": "minecraft:block/piston_base", "y": 270 } },
+	
+		{ "when": { "extended": false, "dust_north": true }, "apply": { "model": "minecraft:block/inactive_dust", "y": 0 } },
+		{ "when": { "extended": false, "dust_south": true }, "apply": { "model": "minecraft:block/inactive_dust", "y": 180 } },
+		{ "when": { "extended": false, "dust_east": true }, "apply": { "model": "minecraft:block/inactive_dust", "y": 90 } },
+		{ "when": { "extended": false, "dust_west": true }, "apply": { "model": "minecraft:block/inactive_dust", "y": 270 } },
+		{ "when": { "extended": false, "dust_up": true }, "apply": { "model": "minecraft:block/inactive_dust", "x": 270 } },
+		{ "when": { "extended": false, "dust_down": true }, "apply": { "model": "minecraft:block/inactive_dust", "x": 90 } },
+		{ "when": { "extended": true, "dust_north": true }, "apply": { "model": "minecraft:block/active_dust", "y": 0 } },
+		{ "when": { "extended": true, "dust_south": true }, "apply": { "model": "minecraft:block/active_dust", "y": 180 } },
+		{ "when": { "extended": true, "dust_east": true }, "apply": { "model": "minecraft:block/active_dust", "y": 90 } },
+		{ "when": { "extended": true, "dust_west": true }, "apply": { "model": "minecraft:block/active_dust", "y": 270 } },
+		{ "when": { "extended": true, "dust_up": true }, "apply": { "model": "minecraft:block/active_dust", "x": 270 } },
+		{ "when": { "extended": true, "dust_down": true }, "apply": { "model": "minecraft:block/active_dust", "x": 90 } }
+	]
+}

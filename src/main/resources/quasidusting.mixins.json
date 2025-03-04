@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.edwardthe1rst.quasidusting.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"PistonBlockMixin",
+		"DispenserBlockMixin",
+		"AbstractBlockMixin",
+		"BlockAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
